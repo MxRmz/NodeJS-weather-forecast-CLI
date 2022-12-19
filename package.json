@@ -1,0 +1,27 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "CLI for getting weather",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Max Olkhovskyi",
+  "license": "ISC",
+  "bugs": {
+    "email": "max.rst@gmail.com"
+  },
+  "dependencies": {
+    "axios": "^1.2.1",
+    "chalk": "^5.2.0"
+  }
+}
